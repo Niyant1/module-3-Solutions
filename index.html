@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Make a web page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/module3-solution-css.css">
+</head>
+
+<style>div {
+ }
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 50px;
+}
+
+
+p {
+  width:97%;
+  max-height: auto;
+  border-height :auto;
+  margin-top: auto;
+  margin-right: 30px;
+padding-top: 35px;
+  float :left;
+  border: 1px solid black;
+  background-color: gray;
+ }
+
+
+
+div.Chicken {
+  
+  padding: 5px 12px 5px 12px;
+  position: absolute;
+ left: 33%;
+  font-family: verdana;font-size: 25px; 
+  top: 0px;
+  text-align: center;
+  width: 110px;
+}
+
+div.Beef {
+
+  padding: 5px 12px 5px 12px;
+  position: absolute;
+   left: 33%;  
+font-family: verdana;font-size: 25px;
+  top: 0px;
+  text-align: center;
+  width: 110px;
+}
+
+div.Sushi {
+  
+  padding: 5px 12px 5px 12px;
+  text-align: center;
+  font-family: verdana;font-size: 25px;
+  position: absolute;
+   left: 33%;
+  top: 0px;
+  width: 110px;
+}
+
+footer {
+  position: absolute;
+  background-color: gray;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+}
+
+
+/*Desktop Version*/
+
+@media(min-width: 992px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left;
+    position: relative;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.67%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 90%;
+  }
+}
+
+
+/*Tablet Version*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    float: left;
+    position: relative;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.67%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+    position: relative;
+  }
+}
+
+
+/*Mobile Version*/
+
+@media(max-width: 767px) {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    float: left;
+    position: relative;
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.67%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+#p1 {
+  margin-left: 25px;
+ 
+}
+#p2 {
+
+}
+#p3{
+  
+}
+
+section {
+  clear: left;
+}
+
+</style>
+
+<body>
+
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: gray; border: 2px solid black;">
+            <a class="navbar-brand" href="#">FOOD,LLC.</a>
+            <button class="navbar-toggler" style="border: black 2px solid;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="nav navbar-nav" id="nav-text">
+                    <a class="nav-item nav-link active" href="#">Chicken<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#"> <span class="hidden-md-up">Beef</span></a>
+                    <a class="nav-item nav-link" href="#">Sushi</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="heading-title text-center">Our Menu</h1>
+
+   <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="Chicken">Chicken</div>
+  
+      
+  
+  <p>
+    
+Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eisumod tempor incididuntut labore etdolore magna aliqua. Ut enim ad minim veniam ,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequot .<a href="#home" class="visible-xs visible-sm">Back to top</a></p>
+  </div>
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="Beef">Beef</div>  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eisumod tempor incididuntut labore etdolore magna aliqua. Ut enim ad minim veniam ,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequot.<a href="#home" class="visible-xs visible-sm">Back to top</a> </p> 
+  </div>
+  
+  <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="Sushi">Sushi</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eisumod tempor incididuntut labore etdolore magna aliqua. Ut enim ad minim veniam ,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequot .<a href="#home" class="visible-xs visible-sm">Back to top</a></p>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
